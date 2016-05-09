@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+	</head>
+	<body>
+		<!--
+        	作者：979655315@qq.com
+        	时间：2016-05-09
+        	描述：导航栏，包括LOGO和标签页，以及注销和个人信息等元素
+        -->
+		<nav class="nav-pills">
+			<div class="container">
+				<div class="navbar-header ">
+					<a class="navbar-brand" href="#">
+						<img alt="我是logo" src="img/logo.png">
+					</a>
+				</div>
+				<ul class="nav nav-pills " style="margin-top: 10PX;">
+					<li role="presentation" class="active"><a href="index.html">主页</a></li>
+					<li role="presentation"><a href="findhelper.html">我要找替身</a></li>
+					<li role="presentation"><a href="dohelper.html">我想做替身</a></li>
+					<li role="presentation"><a href="hsale.html">替身商城</a></li>
+					<!--
+                    	作者：979655315@qq.com
+                    	时间：2016-05-09
+                    	描述：右侧下拉选项框
+                    -->
+					<!--
+					<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">用户名XXX<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="row">
+										<div class="col-xs-6 col-md-3">
+											<a href="#" class="thumbnail">
+												<img src="" alt="">
+												
+											</a>
+										</div>
+									</div>
+									<a href="#">我的主页</a></li>
+								<li><a href="#">我的替身</a></li>
+								<li><a href="#">提现转账</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">意见反馈</a></li>
+							</ul>
+						</li>
+					-->
+					<div class="navbar-right navbar-text">
+						<a href="#">注销</a>|<a href="legging.html">注册</a>
+					</div>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<form class="form-horizontal">
+				<div class="form-group">
+					<div class="col-sm-5 ">
+						<textarea class="form-control" rows="3" placeholder="请输入您要发布的任务，不要超过300字" style="margin-bottom: 10px;"></textarea>
+						<input type="text" class="col-lg-3" placeholder="请输入金额" />元
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-1">
+						<button class="btn btn-danger">截止时间</button>
+					</div>
+					<div class="col-sm-1">
+						<button class="btn btn-danger">发布任务</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--
+	作者：979655315@qq.com
+	时间：2016-05-09
+	描述：页脚
+-->
+		<footer class="panel-footer white">
+			<div class="container" style="text-align: center;">
+				<ul class="list-inline text-muted ">
+					<li>
+						<a href="/">首页</a>
+					</li>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+					<li>
+						<a href="#">招聘信息</a>
+					</li>
+				</ul>
+				<p>个人作品示例</p>
+				<p>All Rights Reserved</p>
+
+			</div>
+		</footer>
+	</body>
+</html>
